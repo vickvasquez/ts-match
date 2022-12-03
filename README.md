@@ -7,6 +7,16 @@
 ```
 
 ## Usage
+ES6
+```ts
+import match from '@vickvasquez/ts-match'
+```
+CommonJS
+
+```ts
+const match = require('vickvasquez/ts-match').default
+```
+## Example
 ```ts
 import match from '@vickvasquez/ts-match'
 
@@ -22,7 +32,7 @@ console.log(result) // foo
 ```ts
 import match from '@vickvasquez/ts-match'
 
-const result = @vickvasquez/ts-match('unknow', {
+const result = match('unknow', {
   foo: 'foo',
   bar: 'bar',
   default: 'default'

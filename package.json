@@ -1,17 +1,21 @@
 {
   "name": "@vickvasquez/ts-match",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "is a switch alternative, but more cleaned and elegant,",
   "main": "build/index.js",
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "lint": "eslint"
+    "lint": "eslint --ext .ts",
+    "pre:publish": "npm run build",
+    "publish": "npm publish --access=public"
   },
   "keywords": [
+    "ts-match",
+    "typescript",
+    "match",
     "ts",
-    "js",
-    "match"
+    "js"
   ],
   "author": "Vick Vasquez",
   "license": "MIT",
