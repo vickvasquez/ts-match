@@ -1,4 +1,7 @@
+
 # @vickvasquez/ts-match
+[![Running Tests](https://github.com/vickvasquez/ts-match/actions/workflows/test.yaml/badge.svg)](https://github.com/vickvasquez/ts-match/actions/workflows/test.yaml)
+
 > @vickvasquez/ts-match is a `switch` alternative, but more cleaned and elegant, inspired in php match https://www.php.net/manual/es/control-structures.match.php
 
 ## Installation
