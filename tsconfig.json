@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    // "target": "ES6",
+    "lib": ["ES2022"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "build",
+  },
+  "exclude": ["tests"]
+}
